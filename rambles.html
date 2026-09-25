@@ -1,8 +1,42 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Rambles — Elsewhere</title><meta content="All rambles from Elsewhere." name="description"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=DM+Mono:wght@300;400;500&amp;family=Newsreader:opsz,wght@6..72,300;6..72,500;6..72,700&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet"/><link href="elsewhere.css" rel="stylesheet"/></head><body class="archive-page-body"><div class="grain"></div><header class="topbar"><a href="index.html">← ELSEWHERE</a><span class="clock"><i></i> OFF THE CLOCK</span></header><main class="rambles-archive"><header class="rambles-hero"><p>THE BACK CATALOGUE</p><h1>ALL RAMBLES.</h1><div class="rambles-count"><strong id="archive-count">14</strong><span>RAMBLES<br/>AND COUNTING</span></div><p class="rambles-intro">Everything I've had too many thoughts about, in reverse chronological order.</p></header><div class="rambles-tools"><input aria-label="Search rambles" id="archive-search" placeholder="SEARCH THE RAMBLES…" type="search"/><button id="archive-random">I DON'T CARE. PICK ONE FOR ME. ↗</button></div><section class="rambles-list"><details class="recent-ramble ramble-item">
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Rambles — Elsewhere</title><meta content="All rambles from Elsewhere." name="description"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=DM+Mono:wght@300;400;500&amp;family=Newsreader:opsz,wght@6..72,300;6..72,500;6..72,700&amp;family=Permanent+Marker&amp;display=swap" rel="stylesheet"/><link href="elsewhere.css" rel="stylesheet"/></head><body class="archive-page-body"><div class="grain"></div><header class="topbar"><a href="index.html">← ELSEWHERE</a><span class="clock"><i></i> OFF THE CLOCK</span></header><main class="rambles-archive"><header class="rambles-hero"><p>THE BACK CATALOGUE</p><h1>ALL RAMBLES.</h1><div class="rambles-count"><strong id="archive-count">14</strong><span>RAMBLES<br/>AND COUNTING</span></div><p class="rambles-intro">Everything I've had too many thoughts about, in reverse chronological order.</p></header><div class="rambles-tools"><input aria-label="Search rambles" id="archive-search" placeholder="SEARCH THE RAMBLES…" type="search"/><button id="archive-random">I DON'T CARE. PICK ONE FOR ME. ↗</button></div><section class="rambles-list">
+<details class="recent-ramble ramble-item">
 <summary>
 <span class="recent-ramble-date">25.09.26</span>
+<span class="recent-ramble-title">BE GONE, STICKERS.</span>
+<span class="recent-ramble-type">THINGS I CARE ABOUT TOO MUCH</span>
+<span class="recent-ramble-action">
+   KEEP READING ↓
+  </span>
+<p class="recent-ramble-preview">Because nothing is sufficiently Kirsten-coded forever.</p>
+</summary>
+<div class="recent-ramble-body"><p>
+  Buckle up ladies and gentlemen because you are in for a twofer: stickers and Goo Gone. I want to start by recognizing the elephant in the room… since when has Goo B Gone been called Goo Gone? Cue conversations about the Mandela effect and diverging timelines. 
+  </p><p>
+    Anywho, I ordered new stickers today for my laptop. And it got me thinking about my desire to stick colorful adhesive to an expensive piece of technology. What does that say about me? Is it indicative of the fact that I want to ramble to others about my interests? Hope that they ask me about a given sticker of a pack of cigarettes shaped like diet coke? 
+  </p><p>
+Maybe. After all, stickers are a slightly desperate form of passive communication. I could simply tell you that I like Diet Coke. Instead, I have chosen to permanently affix that information to the computer I bring with me everywhere and wait patiently for someone to notice.
+  </p><p>
+Why? I don’t know. Probably salt. Potentially real cheese. This isn’t a Cheez-It psychology dissertation.
+  </p><p>
+And yet, I don’t actually think I want anyone to ask.
+  </p>
+  <P>If someone came up to me in a coffee shop and said, “No way, you like Diet Coke?” I would probably say “yeah” and immediately return to my laptop (probably mentally facepalming myself over an awkward interaction).
+</P>
+  <p>So what is the sticker doing there?
+</p>
+<p>Perhaps it’s less about telling you who I am and more about telling me. A tiny collection of things I have, at some point, decided are sufficiently Kirsten-coded to earn precious MacBook real estate.
+</p><p>Which brings us, unfortunately, to Goo Gone.
+</p><p>Because nothing is sufficiently Kirsten-coded forever.
+</p>
+  <div class="entry-scrawl">
+   sticky personality →
+  </div></div>
+</details>
+<details class="recent-ramble ramble-item">
+<summary>
+<span class="recent-ramble-date">24.09.26</span>
 <span class="recent-ramble-title">AN ODE TO CHEEZ-ITS.</span>
 <span class="recent-ramble-type">THINGS I CARE ABOUT TOO MUCH</span>
 <span class="recent-ramble-action">
@@ -399,6 +433,17 @@ Why? I don’t know. Probably salt. Potentially real cheese. This isn’t a Chee
         natural fibers only →
        </div></div>
 </details></section><p class="archive-back"><a href="index.html">← BACK TO ELSEWHERE</a></p></main><script>document.getElementById('archive-count').textContent=document.querySelectorAll('details.recent-ramble').length;
+// Send the rambles to index.html too. postMessage works for hosted pages AND local file previews.
+if (window.parent !== window) {
+  const rambles = [...document.querySelectorAll('details.recent-ramble')].map(item => ({
+    date: item.querySelector('.recent-ramble-date')?.textContent.trim() || '',
+    title: item.querySelector('.recent-ramble-title')?.textContent.trim() || '',
+    category: item.querySelector('.recent-ramble-type')?.textContent.trim() || '',
+    preview: item.querySelector('.recent-ramble-preview')?.textContent.trim() || '',
+    body: item.querySelector('.recent-ramble-body')?.innerHTML || ''
+  }));
+  window.parent.postMessage({ type: 'elsewhere-rambles', rambles }, '*');
+}
 
 const items=[...document.querySelectorAll('details.recent-ramble')];
 document.getElementById('archive-random').addEventListener('click',()=>{const x=items[Math.floor(Math.random()*items.length)]; items.forEach(i=>i.open=false); x.open=true; x.scrollIntoView({behavior:'smooth',block:'start'});});

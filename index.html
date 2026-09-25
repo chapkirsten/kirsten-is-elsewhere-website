@@ -46,67 +46,86 @@
 
 
 
+<iframe id="ramble-sync-source" src="rambles.html?sync=1" title="" aria-hidden="true" tabindex="-1" style="display:none"></iframe>
 <script>(() => {
   const cardClasses = ['feature s0','side s1','side s2','wide s3','mini s4'];
+  let synced = false;
 
   function wireDialogs() {
     document.querySelectorAll('[data-open]').forEach(el => {
+      if (el.dataset.wired) return;
+      el.dataset.wired = '1';
       el.addEventListener('click', () => document.getElementById(el.dataset.open)?.showModal());
     });
-    document.querySelectorAll('dialog .close').forEach(b => b.addEventListener('click', () => b.closest('dialog').close()));
-    document.querySelectorAll('dialog').forEach(d => d.addEventListener('click', e => { if (e.target === d) d.close(); }));
+    document.querySelectorAll('dialog .close').forEach(b => {
+      if (b.dataset.wired) return;
+      b.dataset.wired = '1';
+      b.addEventListener('click', () => b.closest('dialog').close());
+    });
+    document.querySelectorAll('dialog').forEach(d => {
+      if (d.dataset.wired) return;
+      d.dataset.wired = '1';
+      d.addEventListener('click', e => { if (e.target === d) d.close(); });
+    });
   }
 
-  async function syncRambles() {
-    try {
-      const response = await fetch('rambles.html', { cache: 'no-store' });
-      if (!response.ok) throw new Error('Could not load rambles.html');
-      const html = await response.text();
+  function renderRambles(rambles) {
+    if (!Array.isArray(rambles) || !rambles.length) return;
+    synced = true;
+    const total = rambles.length;
+    document.querySelectorAll('[data-ramble-count]').forEach(el => el.textContent = total);
+    document.querySelectorAll('[data-ramble-count-label]').forEach(el => el.textContent = `${total} AND COUNTING`);
+
+    const grid = document.getElementById('latest-grid');
+    grid.innerHTML = '';
+    document.querySelectorAll('dialog[data-generated-ramble]').forEach(d => d.remove());
+
+    rambles.slice(0, 5).forEach((item, i) => {
+      const id = `r${i}`;
+      const button = document.createElement('button');
+      button.className = `story ${cardClasses[i]}`;
+      button.dataset.open = id;
+      button.innerHTML = `<span class="num">${String(i+1).padStart(2,'0')}</span><span class="cat"></span><h3></h3><p></p><span class="date"></span><span class="read">READ →</span>`;
+      button.querySelector('.cat').textContent = item.category || '';
+      button.querySelector('h3').textContent = item.title || '';
+      button.querySelector('p').textContent = item.preview || '';
+      button.querySelector('.date').textContent = item.date || '';
+      grid.appendChild(button);
+
+      const dialog = document.createElement('dialog');
+      dialog.id = id;
+      dialog.dataset.generatedRamble = '';
+      dialog.innerHTML = `<button aria-label="Close" class="close">×</button><div class="folio"><p class="kicker"></p><h2></h2><p class="dek"></p><div class="body"></div></div>`;
+      dialog.querySelector('.kicker').textContent = `${item.category || ''} · ${item.date || ''}`;
+      dialog.querySelector('h2').textContent = item.title || '';
+      dialog.querySelector('.dek').textContent = item.preview || '';
+      dialog.querySelector('.body').innerHTML = item.body || '';
+      document.body.appendChild(dialog);
+    });
+    wireDialogs();
+  }
+
+  // Works even when previewing the site directly from Finder/file://.
+  window.addEventListener('message', event => {
+    if (event.data?.type === 'elsewhere-rambles') renderRambles(event.data.rambles);
+  });
+
+  // Normal hosted-site path (GitHub Pages / your domain).
+  fetch('rambles.html', { cache: 'no-store' })
+    .then(r => { if (!r.ok) throw new Error(); return r.text(); })
+    .then(html => {
+      if (synced) return;
       const doc = new DOMParser().parseFromString(html, 'text/html');
-      const rambles = [...doc.querySelectorAll('details.recent-ramble')];
-      const total = rambles.length;
+      const rambles = [...doc.querySelectorAll('details.recent-ramble')].map(item => ({
+        date: item.querySelector('.recent-ramble-date')?.textContent.trim() || '',
+        title: item.querySelector('.recent-ramble-title')?.textContent.trim() || '',
+        category: item.querySelector('.recent-ramble-type')?.textContent.trim() || '',
+        preview: item.querySelector('.recent-ramble-preview')?.textContent.trim() || '',
+        body: item.querySelector('.recent-ramble-body')?.innerHTML || ''
+      }));
+      renderRambles(rambles);
+    })
+    .catch(() => wireDialogs());
 
-      document.querySelectorAll('[data-ramble-count]').forEach(el => el.textContent = total);
-      document.querySelectorAll('[data-ramble-count-label]').forEach(el => el.textContent = `${total} AND COUNTING`);
-
-      const grid = document.getElementById('latest-grid');
-      grid.innerHTML = '';
-      document.querySelectorAll('dialog[data-generated-ramble]').forEach(d => d.remove());
-
-      rambles.slice(0, 5).forEach((item, i) => {
-        const date = item.querySelector('.recent-ramble-date')?.textContent.trim() || '';
-        const title = item.querySelector('.recent-ramble-title')?.textContent.trim() || '';
-        const category = item.querySelector('.recent-ramble-type')?.textContent.trim() || '';
-        const preview = item.querySelector('.recent-ramble-preview')?.textContent.trim() || '';
-        const body = item.querySelector('.recent-ramble-body');
-        const id = `r${i}`;
-
-        const button = document.createElement('button');
-        button.className = `story ${cardClasses[i]}`;
-        button.dataset.open = id;
-        button.innerHTML = `<span class="num">${String(i+1).padStart(2,'0')}</span><span class="cat"></span><h3></h3><p></p><span class="date"></span><span class="read">READ →</span>`;
-        button.querySelector('.cat').textContent = category;
-        button.querySelector('h3').textContent = title;
-        button.querySelector('p').textContent = preview;
-        button.querySelector('.date').textContent = date;
-        grid.appendChild(button);
-
-        const dialog = document.createElement('dialog');
-        dialog.id = id;
-        dialog.dataset.generatedRamble = '';
-        dialog.innerHTML = `<button aria-label="Close" class="close">×</button><div class="folio"><p class="kicker"></p><h2></h2><p class="dek"></p><div class="body"></div></div>`;
-        dialog.querySelector('.kicker').textContent = `${category} · ${date}`;
-        dialog.querySelector('h2').textContent = title;
-        dialog.querySelector('.dek').textContent = preview;
-        if (body) dialog.querySelector('.body').innerHTML = body.innerHTML;
-        document.body.appendChild(dialog);
-      });
-      wireDialogs();
-    } catch (err) {
-      console.warn('Ramble auto-sync failed; showing the saved homepage version.', err);
-      wireDialogs();
-    }
-  }
-
-  syncRambles();
+  wireDialogs();
 })();</script></body></html>
