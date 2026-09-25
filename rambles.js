@@ -127,7 +127,7 @@ const RAMBLES = [
       <span class="recent-ramble-type">${esc(item.category)}</span>
       <span class="recent-ramble-action">KEEP READING ↓</span>
       <p class="recent-ramble-preview">${esc(item.preview)}</p>
-    </summary><div class="recent-ramble-body">${item.body || ''}</div>`;
+    </summary><div class="recent-ramble-body"><p class="archive-pullout">${esc(item.preview)}</p>${item.body || ''}</div>`;
     return details;
   }
 

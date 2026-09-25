@@ -135,6 +135,7 @@
 .rambles-list .recent-ramble-preview{display:none}
 .rambles-list .recent-ramble-body{padding:12px max(24px,9%) 48px;border-top:1px dashed #aaa;font-family:'Newsreader';font-size:19px;line-height:1.55;max-width:none}
 .rambles-list .recent-ramble-body p{max-width:720px;margin:1em auto}
+.rambles-list .recent-ramble-body .archive-pullout{max-width:720px;margin:.35em auto 1.6em;font-family:'Newsreader';font-size:28px;line-height:1.15;font-style:italic;font-weight:500}
 .archive-back{margin-top:35px}.archive-back a{color:inherit;font-size:9px;letter-spacing:.08em}
 @media(max-width:760px){.rambles-tools{grid-template-columns:1fr}.rambles-list summary{grid-template-columns:72px 1fr;gap:8px 14px}.rambles-list .recent-ramble-type{grid-column:2}.rambles-list .recent-ramble-action{display:none}.rambles-list .recent-ramble-title{font-size:22px}}
 @media(max-width:560px){.ramble-actions{padding:20px}.ramble-actions .roulette{padding:16px}.rambles-archive{padding:45px 20px 70px}.rambles-list summary{padding:18px 4px;grid-template-columns:64px 1fr}.rambles-list .recent-ramble-body{padding:10px 8px 38px;font-size:18px}}
