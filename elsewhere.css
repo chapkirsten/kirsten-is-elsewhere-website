@@ -356,3 +356,12 @@
   .rotation-list{min-width:0;}
   .rotation-list p{grid-template-columns:155px minmax(0,1fr);gap:22px;}
 }
+
+/* v24 — phone containment for Recent Rambles */
+@media(max-width:560px){
+  .latest-grid{width:100%;min-width:0;}
+  .story,.story.feature,.story.wide,.story.mini{min-width:0;max-width:100%;}
+  .story h3{max-width:100%;overflow-wrap:break-word;}
+  .story.feature h3{font-size:clamp(36px,11vw,48px);}
+  .story p{max-width:100%;overflow-wrap:break-word;}
+}
