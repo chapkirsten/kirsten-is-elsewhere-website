@@ -7,6 +7,13 @@
 */
 
 const RAMBLES = [
+    {
+    "date": "25.09.26",
+    "title": "J-COLE, PROFESSIONAL ATHLETE.",
+    "category": "ON REPEAT",
+    "preview": "Chasing dreams on a polished hardwood floor.",
+    "body": "<p>\n <em>No Role Models</em> will forever be one of my favorite “I’m in the mood to scream in my car” songs. So I was acutely aware (and dare I say, disproportionately upset) when J-Cole announced his retirement. This also meant that I was keenly interested when I saw that J-Cole was moving to China to play in the Chinese Basketball Association. \n</p> <p>\n And it brought up a very specific question in my mind. \n</p> <p>\n Should we walk away from the things that we are good at (rapping in his case, not rapping in my case) in order to follow our dreams? What is more fulfilling: being really good at something that you may not be as excited about, or being semi-decent at something you are passionate about? \n</p> <p>\n I don’t know. \n</p> <p>\n In J Cole’s case, he eventually was met with work visa issues, cutting his basketball (... and I guess, in a way, music) career short. Should he have changed things though? Nah… he got to wear baggy basketball shorts on a polished hardwood floor in Nanjing.  \n</p> <p>\n Afterall… \n</p> <p>\n Don’t save him, he doesn’t want to be saved. \n</p>\n<div class=\"entry-scrawl\">\n   sticky personality →\n  </div>"
+  },
   {
     "date": "25.09.26",
     "title": "BE GONE, STICKERS.",
