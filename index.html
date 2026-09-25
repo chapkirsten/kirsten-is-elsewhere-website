@@ -9,7 +9,7 @@
 <section class="rotation-block"><div class="rotation-heading"><small>STATUS REPORT</small><h2>CURRENTLY<br/>IN <span>ROTATION.</span></h2><p>Subject to change without notice.</p></div><div class="rotation-list"><p><span>01 / LISTENING</span><strong>Marianne — Fontaines D.C.</strong></p><p><span>02 / WATCHING</span><strong>Adults</strong></p><p><span>03 / READING</span><strong>Tao Te Ching</strong></p><p><span>04 / WANTING</span><strong>Songmont Hobo Bag</strong></p><p><span>05 / EATING</span><strong>Pesto. An unreasonable amount of pesto.</strong></p><p><span>06 / CONSTANT</span><strong>Diet Coke</strong></p></div><div class="rotation-stamp">SUBJECT TO CHANGE<br/>WITHOUT NOTICE</div></section>
 <section class="latest" id="latest">
 <div class="latest-head"><div><small>THE LATEST</small><h2>RECENT<br/>RAMBLES.</h2></div><p>things I have had too many thoughts about, put here so I don't inflict them on innocent bystanders.</p></div>
-<div class="latest-grid" id="latest-grid"><button class="story feature s0" data-open="r0"><span class="num">01</span><span class="cat">THINGS I CARE ABOUT TOO MUCH</span><h3>AN ODE TO CHEEZ-ITS.</h3><p>The only food consistently there for me.</p><span class="date">25.09.26</span><span class="read">READ →</span></button><button class="story side s1" data-open="r1"><span class="num">02</span><span class="cat">MARGIN NOTES</span><h3>THE SECRET HISTORY.</h3><p>Am I reading the book? Or is the book reading me?</p><span class="date">24.09.26</span><span class="read">READ →</span></button><button class="story side s2" data-open="r2"><span class="num">03</span><span class="cat">THINGS I CARE ABOUT TOO MUCH</span><h3>CHAPMAN ON CHAPMAN.</h3><p>Ayoade is my role model. Is that healthy?</p><span class="date">24.09.26</span><span class="read">READ →</span></button><button class="story wide s3" data-open="r3"><span class="num">04</span><span class="cat">WANT</span><h3>THE RETURN OF THE CHURRO.</h3><p>A developing crisis in the Costco food court.</p><span class="date">23.09.26</span><span class="read">READ →</span></button><button class="story mini s4" data-open="r4"><span class="num">05</span><span class="cat">ON REPEAT</span><h3>TWO HEARTS IN TWO WEEKS.</h3><p>But really, one heart, two rejections, one week.</p><span class="date">23.09.26</span><span class="read">READ →</span></button></div>
+<div class="latest-grid" id="latest-grid"></div>
 <div class="ramble-actions"><div class="archive-link"><a href="rambles.html">ALL RAMBLES <span data-ramble-count-label="">14 AND COUNTING</span> →</a></div></div>
 </section>
 <section class="scraps fixtures"><div class="scrap-title"><small>UNLIKELY TO CHANGE</small><h2>PERMANENT<br/>FIXTURES.</h2><p>The things that have survived enough phases to qualify as core lore.</p></div><div class="scrap-grid"><article><span>01 / HANDS BUSY</span><h3>KNITTING</h3><p>Proof that I am apparently capable of sitting still if you give my hands a sufficiently complicated task.</p></article><article><span>02 / CONSTANT</span><h3>DIET COKE</h3><p>Not currently obsessed. Permanently institutionally committed.</p></article><article><span>03 / DEFAULT STATE</span><h3>TRAVELING</h3><p>I will tolerate an extraordinary amount of inconvenience in exchange for being somewhere I haven't been before.</p></article><article><span>04 / HOUSEHOLD AUTHORITY</span><h3>JAVA</h3><p>Toy Australian Shepherd. Very small. Disproportionate influence over household decision-making.</p></article><article><span>05 / THE ACTUAL THROUGHLINE</span><h3>MUSIC</h3><p>The actual throughline.</p></article></div><div class="fixture-note">CORE LORE / DO NOT ARCHIVE</div></section>
@@ -33,99 +33,4 @@
 </section>
 </main><footer><span>KIRSTEN-IS-ELSEWHERE.COM</span><span>OFF THE CLOCK, ON THE RECORD.</span><span>© 2026</span></footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<iframe id="ramble-sync-source" src="rambles.html?sync=1" title="" aria-hidden="true" tabindex="-1" style="display:none"></iframe>
-<script>(() => {
-  const cardClasses = ['feature s0','side s1','side s2','wide s3','mini s4'];
-  let synced = false;
-
-  function wireDialogs() {
-    document.querySelectorAll('[data-open]').forEach(el => {
-      if (el.dataset.wired) return;
-      el.dataset.wired = '1';
-      el.addEventListener('click', () => document.getElementById(el.dataset.open)?.showModal());
-    });
-    document.querySelectorAll('dialog .close').forEach(b => {
-      if (b.dataset.wired) return;
-      b.dataset.wired = '1';
-      b.addEventListener('click', () => b.closest('dialog').close());
-    });
-    document.querySelectorAll('dialog').forEach(d => {
-      if (d.dataset.wired) return;
-      d.dataset.wired = '1';
-      d.addEventListener('click', e => { if (e.target === d) d.close(); });
-    });
-  }
-
-  function renderRambles(rambles) {
-    if (!Array.isArray(rambles) || !rambles.length) return;
-    synced = true;
-    const total = rambles.length;
-    document.querySelectorAll('[data-ramble-count]').forEach(el => el.textContent = total);
-    document.querySelectorAll('[data-ramble-count-label]').forEach(el => el.textContent = `${total} AND COUNTING`);
-
-    const grid = document.getElementById('latest-grid');
-    grid.innerHTML = '';
-    document.querySelectorAll('dialog[data-generated-ramble]').forEach(d => d.remove());
-
-    rambles.slice(0, 5).forEach((item, i) => {
-      const id = `r${i}`;
-      const button = document.createElement('button');
-      button.className = `story ${cardClasses[i]}`;
-      button.dataset.open = id;
-      button.innerHTML = `<span class="num">${String(i+1).padStart(2,'0')}</span><span class="cat"></span><h3></h3><p></p><span class="date"></span><span class="read">READ →</span>`;
-      button.querySelector('.cat').textContent = item.category || '';
-      button.querySelector('h3').textContent = item.title || '';
-      button.querySelector('p').textContent = item.preview || '';
-      button.querySelector('.date').textContent = item.date || '';
-      grid.appendChild(button);
-
-      const dialog = document.createElement('dialog');
-      dialog.id = id;
-      dialog.dataset.generatedRamble = '';
-      dialog.innerHTML = `<button aria-label="Close" class="close">×</button><div class="folio"><p class="kicker"></p><h2></h2><p class="dek"></p><div class="body"></div></div>`;
-      dialog.querySelector('.kicker').textContent = `${item.category || ''} · ${item.date || ''}`;
-      dialog.querySelector('h2').textContent = item.title || '';
-      dialog.querySelector('.dek').textContent = item.preview || '';
-      dialog.querySelector('.body').innerHTML = item.body || '';
-      document.body.appendChild(dialog);
-    });
-    wireDialogs();
-  }
-
-  // Works even when previewing the site directly from Finder/file://.
-  window.addEventListener('message', event => {
-    if (event.data?.type === 'elsewhere-rambles') renderRambles(event.data.rambles);
-  });
-
-  // Normal hosted-site path (GitHub Pages / your domain).
-  fetch('rambles.html', { cache: 'no-store' })
-    .then(r => { if (!r.ok) throw new Error(); return r.text(); })
-    .then(html => {
-      if (synced) return;
-      const doc = new DOMParser().parseFromString(html, 'text/html');
-      const rambles = [...doc.querySelectorAll('details.recent-ramble')].map(item => ({
-        date: item.querySelector('.recent-ramble-date')?.textContent.trim() || '',
-        title: item.querySelector('.recent-ramble-title')?.textContent.trim() || '',
-        category: item.querySelector('.recent-ramble-type')?.textContent.trim() || '',
-        preview: item.querySelector('.recent-ramble-preview')?.textContent.trim() || '',
-        body: item.querySelector('.recent-ramble-body')?.innerHTML || ''
-      }));
-      renderRambles(rambles);
-    })
-    .catch(() => wireDialogs());
-
-  wireDialogs();
-})();</script></body></html>
+<script src="rambles.js?v=1"></script></body></html>
