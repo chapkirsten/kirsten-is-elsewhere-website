@@ -12,7 +12,7 @@ const RAMBLES = [
   "title": "DUTCH DREAMS.",
   "category": "ON REPEAT",
   "preview": "One song. Several questionable decisions.",
-  "body": "<p>I have a song taking over the airwaves of my brain. <em>Nightclub</em> by Balthazar. Backstory time: I found this song around the same time that I got my driver’s license.</p> <p>Following my personal pattern of making decisions based on musical interests, I even tried (unsuccessfully) to learn Dutch to feel more connected with Patricia, Jinte, Martin, and others.</p> <p>Anyway, that’s it. That’s the post.</p> <p>Just sharing my love of <em>Nightclub</em>.</p> <p>I’m dun dun-dun dun, dun dun-dun dun….</p>\n<div class=\"entry-scrawl\">\n   Tot ziens →\n  </div>"
+  "body": "<p>I have a song taking over the airwaves of my brain. <em>Nightclub</em> by Balthazar. Backstory time: I found this song around the same time that I got my driver’s license. So naturally, I listened to it while making a number of questionable driving decisions.</p> <p>Following my personal pattern of making decisions based on musical interests, I even tried (unsuccessfully) to learn Dutch to feel more connected with Patricia, Jinte, Martin, and others.</p> <p>Anyway, that’s it. That’s the post.</p> <p>Just sharing my love of <em>Nightclub</em>.</p> <p>I’m dun dun-dun dun, dun dun-dun dun…</p>\n<div class=\"entry-scrawl\">\n   Tot ziens →\n  </div>"
     },
     {
     "date": "25.09.26",
