@@ -208,7 +208,7 @@ const RAMBLES = [
       'BE GONE, STICKERS.',
       'EXISTENTIAL IRELAND.',
       'MOSHING-APPROPRIATE.',
-      'SIX HOURS FOR DUMPLINGS.'
+      'RUNNING ON EMPTY.'
     ];
     const featuredRambles = featuredTitles
       .map(title => RAMBLES.find(item => item.title === title))
