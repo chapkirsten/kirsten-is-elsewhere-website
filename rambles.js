@@ -31,7 +31,7 @@ const RAMBLES = [
     {
     "date": "25.09.26",
     "title": "J-COLE, PROFESSIONAL ATHLETE.",
-    "category": "ON REPEAT",
+    "category": "MARGIN NOTES",
     "preview": "Chasing dreams on a polished hardwood floor.",
     "body": "<p><em>No Role Models</em> will forever be one of my favorite “I’m in the mood to scream in my car” songs. So I was acutely aware (and, dare I say, disproportionately upset) when J. Cole started talking about the end of his rap career. This also meant that I was keenly interested when I saw that J. Cole was going to China to play in the Chinese Basketball Association.</p> <p>And it brought up a very specific question in my mind.</p> <p>Should we walk away from the things that we are good at (rapping in his case, not rapping in my case) in order to follow our dreams? What is more fulfilling: being really good at something that you may not be as excited about, or being semi-decent at something you are passionate about?</p> <p>I don’t know.</p> <p>In J. Cole’s case, visa issues meant that his Chinese basketball career amounted to eight minutes on a polished hardwood floor in Nanjing. Should that have stopped him from doing it, though?</p> <p>Nah.</p> <p>He got to wear baggy basketball shorts and play professional basketball in China. Sometimes that is reason enough.</p> <p>After all…</p> <p>Don’t save him, he doesn’t want to be saved.</p>\n<div class=\"entry-scrawl\">\n   The Ville →\n  </div>"
   },
