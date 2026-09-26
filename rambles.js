@@ -8,6 +8,13 @@
 
 const RAMBLES = [
 {
+  "date": "27.09.26",
+  "title": "RUNNING ON EMPTY.",
+  "category": "THINGS I CARE ABOUT TOO MUCH",
+  "preview": "Two half marathons equal one full marathon, right?",
+  "body": "<p>Two and a half years ago, I ran a half marathon without any training (or having ever run more than a mile). How did it happen? Stupidity. What happened afterwards? Despite severe stress fractures, I fell in love with running. Also, stupidity.</p> <p>I thought if I signed up for a half marathon, it would force me to get my daily dose of exercise. It didn’t. My love of the couch knows no bounds. Apparently, my love of strangers cheering while I voluntarily suffer also knows no bounds. I left that half-marathon wanting to run another. Which I did. The same exact race, one year later.</p> <p>And now: I’m tired.</p> <p>The worst part of running a half marathon isn’t running it. It’s everyone expecting you to keep running even when you’d quite like a break. Instead of asking whether there is another race in my future, the question is when.</p> <p>Somewhere along the way, I accidentally became a Runner. This was never discussed with me. Apparently, running 13.1 miles twice is a legally binding commitment to continue doing so for the foreseeable future.</p> <p>The annoying thing is that I still like running. I just also like not running. And I would like to enjoy both without past me setting an uncomfortable precedent.</p> <p>So, will I run another half marathon? Probably.</p> <p>But I would like it noted that this is not legally binding.</p>\n<div class=\"entry-scrawl\">\n   CAN A REST DAY LAST SEVERAL MONTHS? →\n  </div>"
+},
+{
   "date": "26.09.26",
   "title": "MOSHING-APPROPRIATE.",
   "category": "THINGS I CARE ABOUT TOO MUCH",
