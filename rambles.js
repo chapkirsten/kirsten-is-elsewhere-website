@@ -9,6 +9,13 @@
 const RAMBLES = [
 {
   "date": "26.09.26",
+  "title": "MOSHING-APPROPRIATE.",
+  "category": "THINGS I CARE ABOUT TOO MUCH",
+  "preview": "My biological moshing clock is ticking.",
+  "body": "<p>I’ve been watching Bleech 9:3’s Vauxhall Arches show on repeat. And somewhere around my 15th viewing of people throwing themselves into each other in a sweaty room, I realized that I desperately want to be there.</p> <p>I want to mosh (I think?).</p> <p>But I also think I’m too old… Except I’m 26. Which is obviously not old (… I guess depending on who you ask). I know this. But it has brought me to a bit of a ¼ life (that feels lofty… let’s go with ⅓ life) crisis.</p> <p>Because if 26 isn’t too old to mosh, when am I too old to mosh? Is there a cutoff? Does someone tell you? Do you receive a letter?</p> <p><em>Dear Kirsten,<br><br>We regret to inform you that your eligibility for being thrown into strangers at concerts has now expired. You may continue to enjoy live music from a sensible distance.</em></p> <p>I think my problem is that I don’t actually think I’m too old. I just suddenly realized that at some point I could be. And apparently nobody is going to tell me when that happens.</p> <p>Like, I’m 26. Surely I can still mosh at 26. But what about 28? Obviously 28. 32? I think so? 37? Probably? I have no idea. At some point I’m apparently going to hit a number that makes me go “oh, absolutely not,” and I’m slightly disturbed by the fact that I don’t know what the number is.</p> <p>It also doesn’t help that I completely wasted my younger, unquestionably moshing-appropriate years by not moshing. What was I doing at 19? Probably homework… maybe Stardew Valley. And now, after years of absolutely no interest in being elbowed by strangers, I’ve decided that it sounds like a wonderful time.</p> <p>So I should probably mosh.</p> <p>Soon-ish.</p> <p>Just to be safe.</p>\n<div class=\"entry-scrawl\">\n   AGE LIMIT: TBD. →\n  </div>"
+},
+{
+  "date": "26.09.26",
   "title": "SPOILERS, PLEASE.",
   "category": "WATCHING",
   "preview": "Emotional turmoil is fine. I would just like advance notice.",
