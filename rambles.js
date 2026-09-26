@@ -196,7 +196,18 @@ const RAMBLES = [
     document.querySelectorAll('[data-ramble-count-label]').forEach(el => el.textContent = `${RAMBLES.length} AND COUNTING`);
     grid.replaceChildren();
 
-    RAMBLES.slice(0, 5).forEach((item, i) => {
+    const featuredTitles = [
+      'CHAPMAN ON CHAPMAN.',
+      'BE GONE, STICKERS.',
+      'EXISTENTIAL IRELAND.',
+      'MOSHING-APPROPRIATE.',
+      'SIX HOURS FOR DUMPLINGS.'
+    ];
+    const featuredRambles = featuredTitles
+      .map(title => RAMBLES.find(item => item.title === title))
+      .filter(Boolean);
+
+    featuredRambles.forEach((item, i) => {
       const id = `r${i}`;
       const button = document.createElement('button');
       button.className = `story ${cardClasses[i]}`;
