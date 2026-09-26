@@ -7,6 +7,13 @@
 */
 
 const RAMBLES = [
+{
+  "date": "26.09.26",
+  "title": "SPOILERS, PLEASE.",
+  "category": "WATCHING",
+  "preview": "Emotional turmoil is fine. I would just like advance notice.",
+  "body": "<p><em>Finding Emily</em> is one of the best rom-coms I’ve ever seen (I’d lean towards THE best, but that feels potentially too bold of a statement to make due to my propensity to factory reset my preferences regularly).</p> <p>Watching it made me realize, however, how bad I am at watching movies. I hate the third-act turmoil which is bound to occur. I can’t stomach it. Not metaphorically. Literally. It makes me feel sick.</p> <p>The stupid thing is that I don’t even mind the turmoil itself. I just need to know how it ends. Apparently fictional problems are perfectly tolerable as long as I have been briefed on their resolution beforehand.</p> <p>Therefore, I have become a serial skip-ahead-er. If there are 40 minutes left of a movie, you better believe that I will be skipping 25 of those minutes (to where the conflict resolves). When I can’t do that, I desperately try to equip myself with all the knowledge of the outcomes. Fun fact, if we go to the movies together, and you see me slip out for a bathroom break, I’m probably in the stalls googling the ending.</p> <p>That is probably something that I should work on….</p> <p>Until then…</p> <p>What happens next?</p>\n<div class=\"entry-scrawl\">\n   spoilers = self-care →\n  </div>"
+},
   {
   "date": "25.09.26",
   "title": "DUTCH DREAMS.",
