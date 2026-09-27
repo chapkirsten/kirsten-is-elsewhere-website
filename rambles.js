@@ -9,27 +9,34 @@
 const RAMBLES = [
 {
   "date": "27.09.26",
+  "title": "ON A NICKNAME BASIS.",
+  "category": "THINGS I CARE ABOUT TOO MUCH",
+  "preview": "Some people were simply born more nicknameable than others.",
+  "body": "<p>I hate nicknames. Perhaps it’s because I once had a friend tell me that Kirsty sounds like ‘crusty’. And if I am relegated to nickname options that sound like a skin condition, so should everyone else.</p> <p>Nicknames do bring up an interesting topic, however: familiarity. Many of us have nicknames that our family calls us (mine, mercifully, is not Crusty). Many of us (obviously not me) have nicknames that everyone calls us. This leads to what we in the biz may call context collapse. (Don’t ask. I’m off the clock.)</p> <p>There is something about this that feels weirdly intimate. If the person taking your order at Flower Child (side note: mac and cheese to die for) is calling you the same thing your mom called you while tucking you into bed as a child, isn’t that a little weird?</p> <p>I would like to say that this is why I hate nicknames. That I have some principled objection to the collapse of social contexts and the unearned familiarity they create.</p> <p>But I don’t.</p> <p>I’m just jealous.</p> <div class=\"entry-scrawl\">just not crusty →</div>"
+},
+{
+  "date": "26.09.26",
   "title": "FAILURE PENDING.",
   "category": "THINGS I CARE ABOUT TOO MUCH",
   "preview": "Somewhere, someone already knows how disappointed I’m going to be.",
   "body": "<p>It’s one of those things that happens to the best (and worst) of us. You hope that the odds are in your favor and that you do the opposite of failure (whatever that is lol). But… the reality is that many of us are destined to fail at most things. That is the harsh reality we face when we decide to go for the hard stuff.</p> <p>So why the actual hell do we do that to ourselves? Is this one of those instances where I am meant to turn to my <em>Tao Te Ching</em> and have a wise Chinese philosopher tell me not to care about wins or losses?</p> <p>In reality though, turning to those wise words just ends with me white-knuckling my fists in annoyance. It’s easy to philosophize the things you don’t care about. When you do care? Suddenly detachment starts sounding suspiciously like advice from someone with nothing on the line.</p> <p>Which is especially unhelpful when you’re waiting.</p> <p>Refreshing PCS, I am somewhere caught between “rip the Band-Aid off” and “let me stay ignorant.” There is something uniquely terrible about an outcome that has almost certainly already been decided, somewhere, by someone, while you continue going about your day without knowing what it is (reviewer #2, I am glaring at you right now).</p> <p>And maybe that’s where I’ve been getting failure slightly wrong. Failing at something doesn’t necessarily mean you were stupid for trying. Sometimes it just means you wanted something that wasn’t entirely yours to decide.</p> <p>Which is, unfortunately, the price of admission for most interesting things.</p> <p>Which brings me, annoyingly, back to the <em>Tao Te Ching</em>. I don’t think <em>wu wei</em> is actually asking me to stop wanting things. Or to float through life completely indifferent to whether anything works out. Maybe it’s more about knowing when you’ve done your bit and recognizing that white-knuckling the rest of it isn’t going to change the outcome.</p> <p>I say this, of course, as someone who will probably refresh PCS again immediately after writing this.</p> <p>So clearly I have achieved enlightenment.</p>\n<div class=\"entry-scrawl\">\n   REFRESH. REFRESH. REFRESH. →\n  </div>"
 },
 {
-  "date": "27.09.26",
+  "date": "25.09.26",
   "title": "RUNNING ON EMPTY.",
   "category": "THINGS I CARE ABOUT TOO MUCH",
   "preview": "Two half marathons equal one full marathon, right?",
   "body": "<p>Two and a half years ago, I ran a half marathon without any training (or having ever run more than a mile). How did it happen? Stupidity. What happened afterwards? Despite severe stress fractures, I fell in love with running. Also, stupidity.</p> <p>I thought if I signed up for a half marathon, it would force me to get my daily dose of exercise. It didn’t. My love of the couch knows no bounds. Apparently, my love of strangers cheering while I voluntarily suffer also knows no bounds. I left that half-marathon wanting to run another. Which I did. The same exact race, one year later.</p> <p>And now: I’m tired.</p> <p>The worst part of running a half marathon isn’t running it. It’s everyone expecting you to keep running even when you’d quite like a break. Instead of asking whether there is another race in my future, the question is when.</p> <p>Somewhere along the way, I accidentally became a Runner. This was never discussed with me. Apparently, running 13.1 miles twice is a legally binding commitment to continue doing so for the foreseeable future.</p> <p>The annoying thing is that I still like running. I just also like not running. And I would like to enjoy both without past me setting an uncomfortable precedent.</p> <p>So, will I run another half marathon? Probably.</p> <p>But I would like it noted that this is not legally binding.</p>\n<div class=\"entry-scrawl\">\n   CAN A REST DAY LAST SEVERAL MONTHS? →\n  </div>"
 },
 {
-  "date": "26.09.26",
+  "date": "25.09.26",
   "title": "SPOILERS, PLEASE.",
   "category": "WATCHING",
   "preview": "Emotional turmoil is fine. I would just like advance notice.",
   "body": "<p><em>Finding Emily</em> is one of the best rom-coms I’ve ever seen (I’d lean towards THE best, but that feels potentially too bold of a statement to make due to my propensity to factory reset my preferences regularly).</p> <p>Watching it made me realize, however, how bad I am at watching movies. I hate the third-act turmoil which is bound to occur. I can’t stomach it. Not metaphorically. Literally. It makes me feel sick.</p> <p>The stupid thing is that I don’t even mind the turmoil itself. I just need to know how it ends. Apparently fictional problems are perfectly tolerable as long as I have been briefed on their resolution beforehand.</p> <p>Therefore, I have become a serial skip-ahead-er. If there are 40 minutes left of a movie, you better believe that I will be skipping 25 of those minutes (to where the conflict resolves). When I can’t do that, I desperately try to equip myself with all the knowledge of the outcomes. Fun fact, if we go to the movies together, and you see me slip out for a bathroom break, I’m probably in the stalls googling the ending.</p> <p>That is probably something that I should work on….</p> <p>Until then…</p> <p>What happens next?</p>\n<div class=\"entry-scrawl\">\n   spoilers = self-care →\n  </div>"
 },
 {
-  "date": "25.09.26",
+  "date": "24.09.26",
   "title": "J-COLE, PROFESSIONAL ATHLETE.",
   "category": "MARGIN NOTES",
   "preview": "Chasing dreams on a polished hardwood floor.",
