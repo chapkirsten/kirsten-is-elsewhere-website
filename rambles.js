@@ -236,7 +236,7 @@ const RAMBLES = [
       'BE GONE, STICKERS.',
       'EXISTENTIAL IRELAND.',
       'MOSHING-APPROPRIATE.',
-      'RUNNING ON EMPTY.'
+      'CRIMINAL-ALIGNED FABRIC.'
     ];
     const featuredRambles = featuredTitles
       .map(title => RAMBLES.find(item => item.title === title))
