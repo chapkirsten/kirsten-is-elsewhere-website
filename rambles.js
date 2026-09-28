@@ -8,6 +8,13 @@
 
 const RAMBLES = [
 {
+  "date": "28.09.26",
+  "title": "CRIMINAL-ALIGNED FABRIC.",
+  "category": "THINGS I CARE ABOUT TOO MUCH",
+  "preview": "The pinstripes may be going to my head.",
+  "body": "<p>On Saturday, I got a pair of wide-leg pinstripe trousers. And boy, did they make me feel like a mobster. Every step I took, I felt a wave of criminal-aligned fabric brush against my leg. I felt powerful.</p> <p>It made me wonder how much of who we are is just what we happen to be wearing that day. If I wear sweatpants (which I typically am), I’m an exhausted grad student. Put me in pinstripes? Suddenly I have connections. People owe me money. I know a guy.</p> <p>And I think this extends beyond organized crime. A blazer makes me feel like I should be someone’s manager. Sunglasses make me approximately 30% more aloof (which we’ve established, I love). A good coat makes me walk faster for reasons I cannot explain. And if that coat is cheetah print, then I feel like I should be hanging out with rockstars.</p> <p>Maybe clothes don’t reflect who we are. Maybe they’re doing some of the heavy lifting.</p> <p>People always say to fake it till you make it. Dress for the job you want. Act confident until you become confident.</p> <p>Maybe that’s all the mobsters were doing.</p> <p>They put on the pinstripe trousers. The rest followed naturally.</p>\n<div class=\"entry-scrawl\">\n   Call me Al Chapman →\n  </div>"
+},
+{
   "date": "27.09.26",
   "title": "PATIENT ZERO.",
   "category": "THINGS I CARE ABOUT TOO MUCH",
