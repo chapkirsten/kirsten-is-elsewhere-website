@@ -16,13 +16,6 @@ const RAMBLES = [
 },
 {
   "date": "27.09.26",
-  "title": "PATIENT ZERO.",
-  "category": "THINGS I CARE ABOUT TOO MUCH",
-  "preview": "Pickleball, the disease with no cure.",
-  "body": "<p>I hate pickleball.</p> <p>This feels like an embarrassing amount of emotion to direct towards a sport played with a little ball with tiny holes, but my hatred is earned.</p> <p>Pickleball and I have history. I won’t get into the specifics. There is lore (don’t ask).</p> <p>My working theory is that pickleball turns perfectly normal people into sociopaths. Perfectly normal, considerate people pick up a paddle and something shifts. Evil is born. Suddenly nothing matters quite as much as pickleball. Plans and time become negotiable. Minor disagreements take on the gravity of global disputes (scratch that… let’s go ‘alien warfare’).</p> <p>And nobody notices it happening to themselves. That’s the sinister part. Because pickleball doesn’t look threatening. It has a plastic ball. The paddles come in fun colors. People are wearing matching Alo workout sets (I said I hate pickleball, not the outfits).</p> <p>It spreads faster than a pandemic too. Someone starts playing and suddenly everyone they know owns a paddle. Entire friend groups and families, gone.</p> <p>I have seen things.</p> <p>Perhaps this is unfair. Millions of people play pickleball every day without experiencing a complete moral collapse. Presumably.</p> <p>I just haven’t met them.</p> <p>I will not be taking questions.</p>\n<div class=\"entry-scrawl\">\n   Know the signs →\n  </div>"
-},
-{
-  "date": "27.09.26",
   "title": "ON A NICKNAME BASIS.",
   "category": "THINGS I CARE ABOUT TOO MUCH",
   "preview": "Some people were simply born more nicknameable than others.",
@@ -160,6 +153,13 @@ const RAMBLES = [
   "category": "MATERIAL CONCERNS",
   "preview": "On the statistically improbable event of finding jeans that actually fit.",
   "body": "<p>\n   I have a love-hate relationship with those (ideally) cotton, two-legged restraints. Finding a pair that fits: a true miracle. Likelihood of occurring: rare. When it does, though: life-changing.\n  </p><p>\n   Because finding them requires enduring the true Goldilocks problem. When they fit widthwise, they are too short. When they finally don’t look like highwaters, they make every step arduous due to the Chinese finger trap around your thighs. When the waist fits, something else inevitably doesn’t. You try on pair after pair, slowly lowering your standards from “these look good” to “I can technically move my legs.”\n  </p><p>\n   And then, somehow, it happens.\n  </p><p>\n   You find them.\n  </p><p>\n   They reach your ankles. You can sit down. The waist fits. You turn around in the dressing-room mirror approximately six times looking for whatever horrible flaw you must have missed.\n  </p><p>\n   There isn’t one.\n  </p><p>\n   But the relief is short-lived, because now you are betrayed by the many choices you must make. Do you buy multiple pairs? Different colors? If you only buy one, will you spend the rest of your life regretting it? Can you throw them into the dryer? Or will one poorly considered laundry cycle turn your perfect jeans back into the capris you fought so hard to escape?\n  </p><p>\n   The headache-inducing pathway that one must walk for well-fitting jeans makes you wonder whether it’s worth it. Maybe I’m meant to wear capris marketed as full-length jeans.\n  </p><p>\n   Or better yet, maybe my calling in life is sweatpants.\n  </p><div class=\"entry-scrawl\">\n   choose sweatpants →\n  </div>"
+},
+{
+  "date": "15.07.26",
+  "title": "PATIENT ZERO.",
+  "category": "THINGS I CARE ABOUT TOO MUCH",
+  "preview": "Pickleball, the disease with no cure.",
+  "body": "<p>I hate pickleball.</p> <p>This feels like an embarrassing amount of emotion to direct towards a sport played with a little ball with tiny holes, but my hatred is earned.</p> <p>Pickleball and I have history. I won’t get into the specifics. There is lore (don’t ask).</p> <p>My working theory is that pickleball turns perfectly normal people into sociopaths. Perfectly normal, considerate people pick up a paddle and something shifts. Evil is born. Suddenly nothing matters quite as much as pickleball. Plans and time become negotiable. Minor disagreements take on the gravity of global disputes (scratch that… let’s go ‘alien warfare’).</p> <p>And nobody notices it happening to themselves. That’s the sinister part. Because pickleball doesn’t look threatening. It has a plastic ball. The paddles come in fun colors. People are wearing matching Alo workout sets (I said I hate pickleball, not the outfits).</p> <p>It spreads faster than a pandemic too. Someone starts playing and suddenly everyone they know owns a paddle. Entire friend groups and families, gone.</p> <p>I have seen things.</p> <p>Perhaps this is unfair. Millions of people play pickleball every day without experiencing a complete moral collapse. Presumably.</p> <p>I just haven’t met them.</p> <p>I will not be taking questions.</p>\n<div class=\"entry-scrawl\">\n   Know the signs →\n  </div>"
 },
 {
   "date": "02.07.26",
