@@ -8,6 +8,13 @@
 
 const RAMBLES = [
 {
+  "date": "01.10.26",
+  "title": "CARDIOLOGIST APPROVED.",
+  "category": "MATERIAL CONCERNS",
+  "preview": "But at least it isn’t beef.",
+  "body": "<p>I am slowly but surely getting to the age where I need to start worrying about my cholesterol. Bummer, I know. Days of eating solely beef and butter are fading away from me.</p> <p>However, as I went on my daily peruse of the TikTok streets as they say (they don’t say, sorry guys, that’s just me), I came across a beautiful recipe for chicken au poivre… a loophole! I can have my “healthy” (don’t ask me what’s in it) pepper-y sauce with a mountain of chicken.</p> <p>Now on the topic of chicken, I’ve always had the tendency to feel like chicken can be too ‘chicken-y’. Don’t ask what I mean by this. It’s esoteric in nature. If you know, you know. Fortunately, nothing has ever tasted too chicken-y when drowned in 20,000 calories worth of cream and a mountain of crushed (lightly, ofc) pepper.</p> <p>So now, I can say, with my hopefully plaque-free heart, that I am beating a future heart attack with a pound of cream.</p> <p>But, at least it isn’t beef.</p>\n<div class=\"entry-scrawl\">\n   LDL: TBD →\n  </div>"
+},
+{
   "date": "28.09.26",
   "title": "CRIMINAL-ALIGNED FABRIC.",
   "category": "MATERIAL CONCERNS",
