@@ -8,7 +8,7 @@
 
 const RAMBLES = [
 {
-  "date": "02.10.26",
+  "date": "03.10.26",
   "title": "RAIN.",
   "category": "ON REPEAT",
   "preview": "Some storm clouds are harder to see than others. At least we have Wunderhorse",
