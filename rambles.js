@@ -9,16 +9,24 @@
 const RAMBLES = [
 {
   "date": "03.10.26",
-  "title": "RAIN.",
-  "category": "ON REPEAT",
-  "preview": "Some storm clouds are harder to see than others. At least we have Wunderhorse",
-  "body": "<p>I have been listening to a lot of Wunderhorse lately. Heard of them? Great band. Highly recommend.</p> <p>Specifically, the song most often exploding out of my speakers at the mo' is Rain. And my response to the question repeated (I think) 25 times throughout that song is yes.</p> <p>I feel the rain.</p> <p>Which sounds considerably more concerning written down than it did in my head.</p> <p>I don't mean that I am particularly miserable. I'm actually not (don't worry, Mom). But there is something about the way the song describes rain that resonates. The kind of shadowy, pervasive feeling that mutes colors a little bit.</p> <p>I think at times, you can see the storm clouds approaching. You see them above you. You see when they pass. When you're drenched from head to toe in rain, like any sad man in a circa-2006 Arctic Monkeys music video, you at least know where the water is coming from.</p> <p>It's scarier, though, when you can't see the clouds. When you don't know the cause of your slightly damp disposition.</p> <p>Maybe I just need an umbrella.</p> <p>A cute clear one with a long handle that makes me feel like I should be wearing yellow rain boots.</p>\n<div class=\"entry-scrawl\">\n   forecast: slightly damp\n  </div>"},
+  "title": "SUBTEXT.",
+  "category": "HIDDEN MEANINGS",
+  "preview": "God forbid I just tell you how I’m feeling.",
+  "body": "On my way to get my morning McDonald’s Diet Coke, I was listening to Arctic Monkeys’ Tranquility Base Hotel & Casino. And one of my favorites, Science Fiction, graced my car’s speakers. A lot of the lyrics resonate with me. “Religious iconography giving you the creeps?” Always. “I wanna make a simple point about peace and love. But in a sexy way where it’s not obvious.” Is this play about me? There is something kind of chic about being blunt. But I think I’m incapable of being blunt about my various existential crises. Bluntness in the face of reality can feel a bit… cringe? Like, imagine just telling someone you’re scared of getting older. Horrible. Couldn’t be me. I’d much rather tell you that I received an official letter informing me I’m too old to mosh. Same information, really. But one of them is in a sexy way where it’s not obvious. Perhaps this entire website is just an elaborate exercise in making simple points about peace and love. Except instead of peace and love, the points are about the things I’m scared of: anxiety, getting older, self-determination, running, buying trousers, and whether Richard Ayoade would like me. You know. The human condition. But sexier. And not obvious.\n<div class=\"entry-scrawl\">\n   PLEASE READ BETWEEN THE LINES\n  </div>"
+}, 
 {
   "date": "02.10.26",
   "title": "RECORDER.",
   "category": "MUSICAL DIFFERENCES",
   "preview": "Revisiting an old enemy. To play Easter music. In October.",
   "body": "<p>I have unfinished business.</p> <p>An enemy since first grade. Slender. Whistles one octave too high. Cheap.</p> <p>And this enemy is coming to my house.</p> <p>I’ve ordered… a recorder.</p> <p>A pink one.</p> <p>Do you know what that means? It means that Hot Cross Buns is about to massacre the airwaves of my home.</p> <p>It has brought me to a question, though: will I naturally be better at something I struggled with as a six-year-old simply because I am now an adult? Have twenty additional years of life made me, by default, more musically gifted?</p> <p>Surely I’ve picked up something since then.</p> <p>My hands are bigger. My lungs are stronger. I have considerably more education. None of these things are technically related to the recorder. They feel relevant, though… right?</p> <p>Maybe I’ll pick it up and discover that twenty years was all I needed.</p> <p>Or maybe I’m about to discover that I’ve made no meaningful progress since first grade.</p> <p>Either way, Hot Cross Buns will be played.</p>\n<div class=\"entry-scrawl\">\n   Carnegie Hall, I’m coming\n  </div>"
+},
+{
+  "date": "03.10.26",
+  "title": "RAIN.",
+  "category": "ON REPEAT",
+  "preview": "Some storm clouds are harder to see than others. At least we have Wunderhorse",
+  "body": "<p>I have been listening to a lot of Wunderhorse lately. Heard of them? Great band. Highly recommend.</p> <p>Specifically, the song most often exploding out of my speakers at the mo' is Rain. And my response to the question repeated (I think) 25 times throughout that song is yes.</p> <p>I feel the rain.</p> <p>Which sounds considerably more concerning written down than it did in my head.</p> <p>I don't mean that I am particularly miserable. I'm actually not (don't worry, Mom). But there is something about the way the song describes rain that resonates. The kind of shadowy, pervasive feeling that mutes colors a little bit.</p> <p>I think at times, you can see the storm clouds approaching. You see them above you. You see when they pass. When you're drenched from head to toe in rain, like any sad man in a circa-2006 Arctic Monkeys music video, you at least know where the water is coming from.</p> <p>It's scarier, though, when you can't see the clouds. When you don't know the cause of your slightly damp disposition.</p> <p>Maybe I just need an umbrella.</p> <p>A cute clear one with a long handle that makes me feel like I should be wearing yellow rain boots.</p>\n<div class=\"entry-scrawl\">\n   forecast: slightly damp\n  </div>"
 },
 {
   "date": "01.10.26",
