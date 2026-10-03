@@ -22,7 +22,7 @@ const RAMBLES = [
   "body": "<p>I have unfinished business.</p> <p>An enemy since first grade. Slender. Whistles one octave too high. Cheap.</p> <p>And this enemy is coming to my house.</p> <p>I’ve ordered… a recorder.</p> <p>A pink one.</p> <p>Do you know what that means? It means that Hot Cross Buns is about to massacre the airwaves of my home.</p> <p>It has brought me to a question, though: will I naturally be better at something I struggled with as a six-year-old simply because I am now an adult? Have twenty additional years of life made me, by default, more musically gifted?</p> <p>Surely I’ve picked up something since then.</p> <p>My hands are bigger. My lungs are stronger. I have considerably more education. None of these things are technically related to the recorder. They feel relevant, though… right?</p> <p>Maybe I’ll pick it up and discover that twenty years was all I needed.</p> <p>Or maybe I’m about to discover that I’ve made no meaningful progress since first grade.</p> <p>Either way, Hot Cross Buns will be played.</p>\n<div class=\"entry-scrawl\">\n   Carnegie Hall, I’m coming\n  </div>"
 },
 {
-  "date": "03.10.26",
+  "date": "02.10.26",
   "title": "RAIN.",
   "category": "ON REPEAT",
   "preview": "Some storm clouds are harder to see than others. At least we have Wunderhorse",
