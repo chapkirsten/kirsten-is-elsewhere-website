@@ -8,6 +8,13 @@
 
 const RAMBLES = [
 {
+  "date": "17.10.26",
+  "title": "DIRECTED BY NATHAN FIELDER.",
+  "category": "PSYCHOLOGICAL WARFARE",
+  "preview": "I've changed my mind 17 times. I suspect this was intentional.",
+  "body": "<p>So… I watched <em>You Can See Everything</em> last night… and I’ve been staring at a wall with a slight look of confusion ever since. Well, scratch that. Maybe confusion isn’t the right term. Maybe bewilderment? Befuddlement? Flummoxation? (Side note… flummoxation is a great word. Well, maybe not a word? Google says it’s an ‘informal’ word, whatever that means. Either way, I definitely need to use it more frequently.)</p><p>Nathan Fielder and I go way back. I feel personally responsible for the mental health of pilots. I chuckle at the sight of frozen yogurt shops. I have a sticker on the back of my laptop that says ‘Directed by Nathan Fielder’. And we know how seriously I take my stickers (see Be Gone, Stickers).</p><p>But this was different. I left the theater going through my own personal five stages of grief.</p><p>(1) <strong>Denial:</strong> There is no way that she didn’t do it.</p><p>(2) <strong>Anger:</strong> Billy is the incarnate of every swear word that I say when I stub my toe.</p><p>(3) <strong>Bargaining:</strong> Okay, but hear me out. If she can’t understand ‘Who’s on First?’, surely she can’t orchestrate federal-level fraud? That’s just logic. Probably.</p><p>(4) <strong>Depression:</strong> That poor woman. Someone get her a lawyer. A better lawyer. A lawyer who has watched at least one episode of <em>The Rehearsal</em>. A lawyer who can convince her to divorce that evolutionary oversight.</p><p>(5) <strong>Acceptance:</strong> Well. That’s unfortunate. Anyway, I think I need to lie down.</p><p>But then… right when I made peace with the fact that she wasn’t the master manipulator I’d initially thought she was, I had a realization. One partially driven by an NPR article I read on the drive home from the theater (when in doubt, NPR it out).</p><p>What if Nathan Fielder is the master manipulator?</p><p>Or is it Elizabeth Holmes? Billy (the sack of skin with evil inside)? Amanda Seyfried?</p><p>At this point, I don’t know who’s manipulating whom. All I know is that someone is probably manipulating me. Somewhere along the way, Nathan Fielder convinced me that I’m capable of solving a mystery that may or may not exist. I’ve changed my mind approximately 17 times in the last 24 hours. Psychological boomerang warfare of sorts.</p><p>Either way, my life will continue to be directed by Nathan Fielder.</p><div class=\"entry-scrawl\">I CONSENT TO FURTHER MANIPULATION</div>"
+},
+{
   "date": "03.10.26",
   "title": "SUBTEXT.",
   "category": "HIDDEN MEANINGS",
