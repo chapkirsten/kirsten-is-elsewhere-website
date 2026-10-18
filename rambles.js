@@ -268,7 +268,7 @@ const RAMBLES = [
     const featuredTitles = [
       'CHAPMAN ON CHAPMAN.',
       'BE GONE, STICKERS.',
-      'EXISTENTIAL IRELAND.',
+      'DIRECTED BY NATHAN FIELDER.',
       'SUBTEXT.',
       'MOSHING-APPROPRIATE.'
     ];
