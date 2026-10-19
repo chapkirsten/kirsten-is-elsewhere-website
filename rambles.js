@@ -8,6 +8,13 @@
 
 const RAMBLES = [
 {
+  "date": "18.10.26",
+  "title": "THE OMNIPRESENT MAN.",
+  "category": "UNREQUESTED EDUCATION",
+  "preview": "I know an unreasonable amount about the Sahel. I blame a bald British man.",
+  "body": "<p>There’s something deeply comforting about having a bald man with a British accent explain the collapse of ancient civilizations while I knit. I like to think the collapse of ancient civilizations serves as artistic inspiration for whatever PetiteKnit pattern I'm working on at a given moment (apologies to the knitting community for having a mass-produced personality).</p><p>Sometimes Simon is merely background noise while I work. Other times, I find myself abandoning whatever I was doing to stare intently at a map of a country I hadn’t thought about in years. Or better yet, an island. An island whose inhabitants have never contacted the outside world.</p><p>The problem is that I never know which version of myself is going to emerge when I press play.</p><p>Will I finish three inches of a sweater while passively absorbing information about the Bronze Age collapse? Or will I spend the next 45 minutes completely engrossed in the urban-planning nightmare of Ashgabat?</p><p>It’s a gamble. One that I continue to make with alarming frequency.</p>"
+},
+{
   "date": "17.10.26",
   "title": "DIRECTED BY NATHAN FIELDER.",
   "category": "PSYCHOLOGICAL WARFARE",
