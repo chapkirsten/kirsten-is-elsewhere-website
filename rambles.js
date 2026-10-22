@@ -8,6 +8,13 @@
 
 const RAMBLES = [
 {
+  "date": "22.10.26",
+  "title": "ADVIL TO ULCER PIPELINE.",
+  "category": "OTC BETRAYAL",
+  "preview": "A roadblock in my love of ibuprofen.",
+  "body": "<p>I have been betrayed.</p><p>By Advil.</p><p>Advil has always been my most dependable companion. Headache? Fixed. Backache (which, thanks to my 42-degree spinal curve, I have plenty of)? Fixed. Existential dread? Well, no. That’s Diet Coke’s job. But you get the idea.</p><p>Until now.</p><p>Apparently, years of unwavering loyalty mean absolutely nothing to ibuprofen. Because my dear, trusted Advil has seemingly decided to repay my devotion by eating a hole in my stomach. Well, technically, possibly my duodenum. But that doesn’t quite have the same dramatic effect.</p><p>The irony of this situation is not lost on me.</p><p>I suppose the lesson here is that nothing is sacred. Not friendship. Not loyalty. Not the little blue gel (or red circular… I’m seasoned guys) tablets I’ve entrusted with my physical well-being.</p><p>Well, perhaps one thing is sacred.</p><p>Diet Coke, please don’t let me down.</p>"
+},
+{
   "date": "18.10.26",
   "title": "THE OMNIPRESENT MAN.",
   "category": "UNREQUESTED EDUCATION",
