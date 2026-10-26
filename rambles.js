@@ -8,6 +8,13 @@
 
 const RAMBLES = [
 {
+  "date": "25.10.26",
+  "title": "HISTORICAL NONSENSE.",
+  "category": "MARGIN NOTES",
+  "preview": "Six centuries from now, someone may have questions about my trousers.",
+  "body": "<p>So I’ve recently been dipping my toes into the world of medieval manuscripts. Naturally, my mental spotlight has been drawn to one that nobody has managed to decipher in over a century. The Voynich Manuscript, baby. Or as I like to call it, the good ol’ VM. A nickname recognizable to absolutely no one aside from me… ironic considering my hatred of nicknames (see <em>On a Nickname Basis</em>).</p><p>While the mysticism surrounding the manuscript would have you imagine that it contains esoteric information about the history of our species (or maybe aliens. Aliens would be cool.), what if it’s just a grocery list?</p><p>Or better yet, what if it’s just the ramblings of an eccentric medieval person? We tend to imagine historical figures occupying themselves with matters of great importance, but what if it was just a 26-year-old waffling about her favorite band? Oooh, or maybe book? Or even better, her love of cheese-flavored crackers from Kansas specifically?</p><p>Maybe instead of trying to decode the VM, we should just assume it was an extremely niche personal blog.</p><p>Which does make me wonder how my own ramblings would fare in a few centuries. Would anyone understand why I was so emotionally invested in a particular modality of Diet Coke (fountain &gt; glass bottle &gt; can &gt; plastic bottle)? Would they recognize the bands I insist on mentioning?</p><p>And perhaps more concerningly, why do I find the prospect of someone trying to figure it all out rather appealing?</p><p>I can only hope that, 600 years from now, someone will devote an equally unreasonable amount of time to deciphering my thoughts on trousers.</p><div class=\"entry-scrawl\">FUTURE PRIMARY SOURCE →</div>"
+},
+{
   "date": "22.10.26",
   "title": "ADVIL TO ULCER PIPELINE.",
   "category": "OTC BETRAYAL",
