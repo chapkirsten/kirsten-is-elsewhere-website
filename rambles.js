@@ -8,6 +8,13 @@
 
 const RAMBLES = [
 {
+  "date": "27.10.26",
+  "title": "REJECTION PURGATORY.",
+  "category": "MARGIN NOTES",
+  "preview": "The privilege of Reviewer #2 tearing you apart.",
+  "body": "<p>There are few things more humbling in academia than rejection.</p><p>Except, perhaps, being rejected before anyone has even bothered to read your work.</p><p>I’m currently experiencing the psychological torment of wondering whether a paper I’ve submitted will make it to peer review. Yup, you heard that right. Not whether it will be accepted. Just whether I will be granted the privilege of having strangers tell me everything I’ve done wrong.</p><p>A remarkably low bar, you might think.</p><p>And yet.</p><p>I’ve done all the things. I’ve checked the formatting. I’ve included the necessary sections. I double checked anonymity (she's making a list, checking it twice). I’ve followed the submission guidelines with the kind of religious devotion normally reserved for people who have considerably more faith than I do.</p><p>But what if I’ve missed something? What if the AC deems me unworthy of being torn apart?</p><p>I have spent years developing the emotional resilience necessary to withstand the wrath of Reviewer #2. I have prepared myself for the inevitable questioning of my methodological decisions, my theoretical contributions, and, maybe even, my ability to read. I have the words “Keep your hopes low and ability to catastrophize high” written in black expo marker above my desk.</p><p>And now you’re telling me there’s a chance Reviewer #2 won’t even grace me with their presence.</p><p>Devastating.</p><p>The worst part is that I can’t do anything about it. Somewhere, an AC is sitting with my fate on their PCS account. And here I am left to wonder whether the absence of an email is good news, or simply evidence that nobody has gotten around to ruining my week yet.</p><p>I used to think that getting a paper accepted was the goal.</p><p>Apparently, I’ve reached a point in my academic career where I’m just hoping to be criticized.</p><p>Please. Let Reviewer #2 have a go.</p><p>Reviewer #2, please don’t be too mean.</p><div class=\"entry-scrawl\">THE BAR IS IN HELL.</div>"
+},
+{
   "date": "26.10.26",
   "title": "MADRA SALACH EARLY ADOPTER.",
   "category": "ON REPEAT",
